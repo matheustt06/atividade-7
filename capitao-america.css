@@ -1,0 +1,40 @@
+.circulo {
+    border-radius: 50%;
+    /*deixar as div em formato de bola*/
+    display: flex;
+    align-items: center;
+    /*centralizar os bagui*/
+    justify-content: center;
+    border: 1px solid #3c404f;
+    margin: auto;
+}
+
+#circulo1 {
+    height: 256px;
+    width: 256px;
+    background-color: red;
+}
+
+#circulo2 {
+    height: 206px;
+    width: 206px;
+    background-color: white;
+}
+
+#circulo3 {
+    height: 156px;
+    width: 156px;
+    background-color: red;
+}
+
+#circulo4 {
+    height: 106px;
+    width: 106px;
+    background-color: blue;
+}
+
+#estrela {
+    border-left: 50px solid red;
+    border-right: 50px solid white;
+    border-bottom: 35px solid green;
+}
